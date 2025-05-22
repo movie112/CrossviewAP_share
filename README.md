@@ -22,7 +22,7 @@ pip install huggingface_hub==0.14.0
 
 **2. make_mfa.py**
 - https://montreal-forced-aligner.readthedocs.io/en/v2.1.7/index.html
-- 데이터 생성 시 누락 이슈 존재 -> 
+- 데이터 생성 시 누락 이슈 존재 -> 확인 후 해당 디렉토리만 재생성 작업
 - Setting
   ```
   conda create -n mfa_env -c conda-forge montreal-forced-aligner
