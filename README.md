@@ -3,7 +3,7 @@
 ## Data Generation
 **1. make_audio.py**
 - https://github.com/myshell-ai/OpenVoice.git
-- [기존 openvoice에서 Melo](https://github.com/myshell-ai/MeloTTS)
+-https://github.com/myshell-ai/MeloTTS
 - Setting
 ```
 conda create -n openvoice python=3.9
