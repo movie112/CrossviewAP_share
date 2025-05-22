@@ -1,5 +1,7 @@
 # CrossviewAP_share
-
+- step 1, 2, 3: Data Generation
+- setp 4: Evaluation
+  
 ## Data Generation
 ### OpenVoice_Share0522
 **1. make_audio.py**
