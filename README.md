@@ -9,7 +9,7 @@
 
 - Setting
   - OpenVoice_Share0522/checkpoints_v2 로 다운로드
-    - https://drive.google.com/file/d/1G4LO-B-HGojpVMgB367S4nufSXH_jJuv/view?usp=drive_link
+    - [checkpoints_v2](https://drive.google.com/file/d/1G4LO-B-HGojpVMgB367S4nufSXH_jJuv/view?usp=drive_link)
 ```
 conda create -n openvoice python=3.9
 conda activate openvoice
@@ -52,9 +52,9 @@ conda activate openvoice
 - [참고자료](https://github.com/Yushi-Hu/Multilingual-AWE)
 - Setting
   - python 3.7, pytorch 1.3, h5py 2.9.0, numpy, scipy, tensorboard 1.14.0
-  - CrossviewAP_share0516/ckpts, CrossviewAP_share0516/datasets 로 다운로드
-    - https://drive.google.com/file/d/1oyoFQ5C-rqac2lEbYx_0dqMpUPRLsO-b/view?usp=sharing
-    - https://drive.google.com/file/d/1pFck6ozBtjLcNdFeU4kfJgQY5xJTVGxY/view?usp=sharing
+  - CrossviewAP_share0522/ckpts, CrossviewAP_share0522/datasets 로 다운로드
+    - [ckpts](https://drive.google.com/file/d/1oyoFQ5C-rqac2lEbYx_0dqMpUPRLsO-b/view?usp=sharing)
+    - [datasets](https://drive.google.com/file/d/1pFck6ozBtjLcNdFeU4kfJgQY5xJTVGxY/view?usp=sharing)
   - config 파일 내 경로 수정 필요
   
 - result_dir 에 crossview ap 결과 저장
