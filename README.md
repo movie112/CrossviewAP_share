@@ -53,7 +53,7 @@ conda activate openvoice
   - python 3.7, pytorch 1.3, h5py 2.9.0, numpy, scipy, tensorboard 1.14.0
   - CrossviewAP_share0516/ckpts, CrossviewAP_share0516/datasets 로 다운로드
     - https://drive.google.com/file/d/1oyoFQ5C-rqac2lEbYx_0dqMpUPRLsO-b/view?usp=sharing
-    - https://drive.google.com/file/d/1AdOuyRjmG4M3gH9zi9i6xGK1zhObnFuc/view?usp=sharing
+    - https://drive.google.com/file/d/1pFck6ozBtjLcNdFeU4kfJgQY5xJTVGxY/view?usp=sharing
   - config 파일 내 경로 수정 필요
   
 - result_dir 에 crossview ap 결과 저장
