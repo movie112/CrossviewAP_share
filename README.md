@@ -7,8 +7,8 @@
   - https://github.com/myshell-ai/OpenVoice.git
   - https://github.com/myshell-ai/MeloTTS
 - Setting
-  -   OpenVoice_Share0522/checkpoints_v2 로 다운로드
-    -   https://drive.google.com/file/d/1G4LO-B-HGojpVMgB367S4nufSXH_jJuv/view?usp=drive_link
+  - OpenVoice_Share0522/checkpoints_v2 로 다운로드
+    - https://drive.google.com/file/d/1G4LO-B-HGojpVMgB367S4nufSXH_jJuv/view?usp=drive_link
 ```
 conda create -n openvoice python=3.9
 conda activate openvoice
