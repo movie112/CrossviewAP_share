@@ -1,0 +1,4 @@
+[console_scripts]
+melo = melo.main:main
+melo-ui = melo.app:main
+melotts = melo.main:main
