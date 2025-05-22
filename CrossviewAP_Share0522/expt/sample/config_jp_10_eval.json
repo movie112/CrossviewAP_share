@@ -1,0 +1,76 @@
+{
+    "global_step": 0,  
+    "eval_interval": null, 
+    "subwords": "phones",
+    "feats": "feats",
+    "stack_frames": true,
+    "shuffle": "both",
+    "train_batch_size": 256,
+    "train_min_seg_dur": 0,
+    "train_min_occ_count": 0,
+    "dev_batch_size": 500,
+    "dev_min_seg_dur": 50,
+    "dev_min_occ_count": 0,
+    "view1_cell": "GRU",
+    "view1_hidden": 512,
+    "view1_layers": 4,
+    "view1_dropout": 0.4,
+    "view1_bidir": true,
+    "view2_cell": "GRU",
+    "view2_inputs": 64,
+    "view2_hidden": 512,
+    "view2_layers": 1,
+    "view2_dropout": 0.0,
+    "view2_bidir": true,
+    "projection": null,
+    "loss_margin": 0.4,
+    "loss_k": 20,
+    "adam_lr": 0.001,
+    "mode": "max",
+    "factor": 0.2,
+    "patience": 5,
+    "min_lr": 1e-08,
+    "subwords_to_ids": "/home/yeonghwa/workspace/flitto/CrossviewAP_Share0522/subwords_to_ids.json",
+    "feature_fn": "/home/yeonghwa/workspace/flitto/CrossviewAP_Share0522/xsampa_phonetic_features.json",
+    "fine_tune": "false",
+    "ckpt_dir": "/home/yeonghwa/workspace/flitto/CrossviewAP_Share0522/ckpts/jp/new_10",
+    "save_dir": "/home/yeonghwa/workspace/flitto/CrossviewAP_Share0522/ckpts/jp/new_10",
+    "train_feats": [
+        "/home/yeonghwa/workspace/flitto/CrossviewAP_Share0522/datasets/hdf5/train/jp/feats.hdf5"
+
+    ],
+    "train_align": [
+        "/home/yeonghwa/workspace/flitto/CrossviewAP_Share0522/datasets/hdf5/train/jp/align.hdf5"
+
+    ],
+    "train_vocab": [
+        "/home/yeonghwa/workspace/flitto/CrossviewAP_Share0522/datasets/vocab/train/jp/vocab_10.json"
+
+    ],
+    "dev_feats": [
+        "/home/yeonghwa/workspace/flitto/CrossviewAP_Share0522/datasets/hdf5/test/jp/feats.hdf5"
+
+    ],
+    "dev_align": [
+        "/home/yeonghwa/workspace/flitto/CrossviewAP_Share0522/datasets/hdf5/test/jp/align.hdf5"
+
+    ],
+    "dev_vocab": [
+        "/home/yeonghwa/workspace/flitto/CrossviewAP_Share0522/datasets/vocab/test/jp/vocab_0.json"
+
+    ],
+    "all_vocab": [
+        "/home/yeonghwa/workspace/flitto/CrossviewAP_Share0522/datasets/vocab/test/jp/vocab_0.json"
+
+
+    ],
+    "train_language_list": [
+        "501-jp"
+
+    ],
+    "main_dev_language_list": [
+        "501-jp"
+
+    ],
+    "add_dev_language_list": []
+}
