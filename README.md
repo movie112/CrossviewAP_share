@@ -5,9 +5,8 @@
 ## Data Generation
 ### OpenVoice_Share0522
 **1. make_audio.py**
-- 참고
-  - https://github.com/myshell-ai/OpenVoice.git
-  - https://github.com/myshell-ai/MeloTTS
+- [참고자료1](https://github.com/myshell-ai/OpenVoice.git), [참고자료2](https://github.com/myshell-ai/MeloTTS)
+
 - Setting
   - OpenVoice_Share0522/checkpoints_v2 로 다운로드
     - https://drive.google.com/file/d/1G4LO-B-HGojpVMgB367S4nufSXH_jJuv/view?usp=drive_link
@@ -25,7 +24,7 @@ pip install huggingface_hub==0.14.0
 ```
 
 **2. make_mfa.py**
-- 참고: https://montreal-forced-aligner.readthedocs.io/en/v2.1.7/index.html
+- [참고자료](https://montreal-forced-aligner.readthedocs.io/en/v2.1.7/index.html)
 - 데이터 생성 시 누락 이슈 존재 -> 확인 후 해당 디렉토리만 재생성 작업
 - Setting
   ```
@@ -50,7 +49,7 @@ conda activate openvoice
 ## Crossview AP Evaluation
 ### CrossviewAP_share0516
 **4.evaluate.py**
-- 참고: https://github.com/Yushi-Hu/Multilingual-AWE
+- [참고자료](https://github.com/Yushi-Hu/Multilingual-AWE)
 - Setting
   - python 3.7, pytorch 1.3, h5py 2.9.0, numpy, scipy, tensorboard 1.14.0
   - CrossviewAP_share0516/ckpts, CrossviewAP_share0516/datasets 로 다운로드
