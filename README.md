@@ -1,10 +1,14 @@
 # CrossviewAP_share
 
 ## Data Generation
+### OpenVoice_Share0522
 **1. make_audio.py**
-- https://github.com/myshell-ai/OpenVoice.git
-- https://github.com/myshell-ai/MeloTTS
+- 참고 자료
+  - https://github.com/myshell-ai/OpenVoice.git
+  - https://github.com/myshell-ai/MeloTTS
 - Setting
+  -   OpenVoice_Share0522/checkpoints_v2 로 다운로드
+    -   https://drive.google.com/file/d/1G4LO-B-HGojpVMgB367S4nufSXH_jJuv/view?usp=drive_link
 ```
 conda create -n openvoice python=3.9
 conda activate openvoice
@@ -17,8 +21,6 @@ cd MeloTTS_w_noise
 pip install -e .
 pip install huggingface_hub==0.14.0 
 ```
--  model.tts_to_file(text, speaker_id, src_path, speed=speed, snr_path=snr_path, domain="DL")
-- domain 지정
 
 **2. make_mfa.py**
 - https://montreal-forced-aligner.readthedocs.io/en/v2.1.7/index.html
@@ -44,11 +46,17 @@ conda activate openvoice
 conda activate openvoice
 ```
 ## Crossview AP Evaluation
+### CrossviewAP_share0516
 **4.evaluate.py**
-- Crossview AP
-- https://github.com/Yushi-Hu/Multilingual-AWE
-- python 3.7, pytorch 1.3, h5py 2.9.0, numpy, scipy, tensorboard 1.14.0
-- config 파일 내 경로 수정 필요
+- 참고자료
+  - https://github.com/Yushi-Hu/Multilingual-AWE
+- Setting
+  - python 3.7, pytorch 1.3, h5py 2.9.0, numpy, scipy, tensorboard 1.14.0
+  - CrossviewAP_share0516/ckpts, CrossviewAP_share0516/datasets 로 다운로드
+    - https://drive.google.com/file/d/1oyoFQ5C-rqac2lEbYx_0dqMpUPRLsO-b/view?usp=sharing
+    - https://drive.google.com/file/d/1AdOuyRjmG4M3gH9zi9i6xGK1zhObnFuc/view?usp=sharing
+  - config 파일 내 경로 수정 필요
+  
 - result_dir 에 crossview ap 결과 저장
 - kr_morph: 한국어 명사만 수집하여 평가
 ```
